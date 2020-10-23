@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>wavpack7z</id>
+    <version>1.3</version>
+    <packageSourceUrl>https://github.com/zverev-iv/choco-wavpack7z</packageSourceUrl>
+    <owners>zverev-iv</owners>
+    <title>wavpack7z (Install)</title>
+    <authors>Dec Software</authors>
+    <projectUrl>https://www.tc4shell.com/en/7zip/wavpack7z/</projectUrl>
+    <copyright>2020 Dec Software</copyright>
+    <licenseUrl>https://www.tc4shell.com/en/termsofuse/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>wavpack7z 7zip 7-zip 7z wav WavPack caf w64 dff dsf aif afc</tags>
+    <summary>WavPack7z is a plugin for the popular 7-Zip archiver. It allows you to pack uncompressed PCM audio data using the highly efficient WavPack compression algorithm</summary>
+    <description>WavPack7z is a plugin for the popular 7-Zip archiver. It allows you to pack uncompressed PCM audio data using the highly efficient WavPack compression algorithm.
+WavPack7z can automatically detect and pack files of the following types:
+
+- .wav (including bwf/rf64 и Multiple Data Chunks (Legasy Audition Format) formats)
+- .caf (Core Audio Format)
+- .w64 (Sony Wave64)
+- .dff (Philips DSDIFF)
+- .dsf (Sony DSD stream)
+- .aif, .afc (Аudio Interchange File Format, including AIFF-C format)
+WavPack7z can also pack files containing raw audio data.
+
+The following audio data parameters are allowed:
+
+- The number of channels: 1-256
+- Bits per sample: 1-32
+- Data type: integer or float (signed or unsigned)
+WavPack7z also allows you to unpack files from Zip archives packed with WavPack method.
+    </description>
+    <releaseNotes>Current version
+
+Plugin version: 1.3
+Distribution package release date: 12 Feb 2019
+    </releaseNotes>
+    <dependencies>
+        <dependency id="7zip.install" version="19.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
