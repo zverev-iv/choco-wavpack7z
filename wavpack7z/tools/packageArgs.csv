@@ -1,0 +1,3 @@
+#TYPE System.Management.Automation.PSCustomObject
+"url";"checksum";"checksumType";"url64bit";"checksum64";"checksumType64"
+"https://www.tc4shell.com/binary/WavPack7z.zip";"006c99b7523236ee10b159c218562ee04ce94e0f0352e1919367b127d534c51e";"sha256";"https://www.tc4shell.com/binary/WavPack7z.zip";"006c99b7523236ee10b159c218562ee04ce94e0f0352e1919367b127d534c51e";"sha256"
